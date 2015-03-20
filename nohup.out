@@ -1,0 +1,28 @@
+URL path /comment.html
+URL search 
+URL query undefined
+URL path /comment
+URL search 
+URL query undefined
+comment route
+POST comment route
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'mongodb'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at IncomingMessage.<anonymous> (/var/node/http_static_simple.js:29:25)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:408:10)
+    at emitReadable (_stream_readable.js:404:5)
+about to fork child process, waiting until server is ready for connections.
+forked process: 20977
+all output going to: /var/log/mongodb.log
+log file [/var/log/mongodb.log] exists; copied to temporary file [/var/log/mongodb.log.2015-03-12T20-56-08]
+child process started successfully, parent exiting
